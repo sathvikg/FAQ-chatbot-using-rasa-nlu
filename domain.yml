@@ -1,0 +1,76 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- courses
+- Mlearn
+- AI_chatbot_dev
+- django
+- prerequisites
+- tutor
+- requirements
+- class
+- course_time
+- login
+- contact
+
+
+responses:
+  utter_greet:
+  - text: Hey! welcome to MAD. How can I help you?
+  utter_time:
+  - text: "The classes will be generally from 6pm to 8pm."
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Thank you visit again.
+  utter_login:
+  - text: please use ticket ID as the username and ticketid+transactionid as your password without space.
+  utter_machine_learning:
+  - text:"Machine learning is a 15 days course. we will be covering the basics
+      of machine learning. The topics discussed are classification, regression. Decision
+      tree, Random forest and support vector machines."
+  utter_AI:
+  - text:"The AI chatbot development course is a 5 days course. In this we will
+      be covering chatbot development using datadriven , machine learning and then
+      using rasa. we will create teams of the student and you will be participating
+      in battles."
+  utter_django:
+  - text:"The django fullstack web development course is a 2 weeks course. In
+      this you will learn about the django framework and creating an ecommerce website."
+  utter_tutor:
+  - text:"Tirth Shah and Aqib will be the teachers for all the courses. THe discord server is handled by atharva."
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_courses:
+  - text: we have machine learning, AI chatbot development, django fullstack web development.would
+      you like to join any course?
+  utter_join_course:
+  - text: would you like to join this course?
+  utter_contact_enrol:
+  - text: please contact our team at +9112345 to enroll for the course.
+  utter_sorry:
+  - text: "sorry we couldn't help you. we will improve the next time you visit."
+  utter_contact:
+  - text: our phone number is 12345 and mail ID is help@mad.com
+  utter_which_course:
+  - text: which course?
+  utter_prerequisites:
+  - text:you should be knowing basics of python to start any of these courses.
+  utter_requirements:
+  - text: A working laptop with python = > 3.6 and any IDE.
+  utter_class:
+  - text: the classes will be conducted online in google meet. you will get the invite link 30mins before the class start.
+  
